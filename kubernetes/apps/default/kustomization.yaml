@@ -19,3 +19,5 @@ resources:
   - ./ntfy/ks.yaml
   - ./atuin/ks.yaml
   - ./piped/ks.yaml
+components:
+  - ../../components/repos/app-template
