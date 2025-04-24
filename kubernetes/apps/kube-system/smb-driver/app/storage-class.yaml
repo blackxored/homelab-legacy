@@ -12,7 +12,7 @@ metadata:
   name: smb
 provisioner: smb.csi.k8s.io
 parameters:
-  source: //${SECRET_CIFS_SHARE}/k3s
+  source: ${SECRET_CIFS_SHARE}/k3s
   csi.storage.k8s.io/provisioner-secret-name: smb-secret
   csi.storage.k8s.io/provisioner-secret-namespace: kube-system
   csi.storage.k8s.io/node-stage-secret-name: smb-secret
